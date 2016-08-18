@@ -43,7 +43,6 @@ module.exports = {
   },
 
   parsehub: {
-    key: process.env.PARSEHUB_KEY,
-    token: process.env.PARSEHUB_TOKEN
+    key: process.env.PARSEHUB_KEY || 'tx-g-Nhb1Dki2hQPOihKmgbO'
   }
 };
