@@ -1,0 +1,37 @@
+{
+  "extends": "airbnb",
+  "env": {
+      "es6": true,
+      "node": true,
+      "mocha": true
+  },
+  "ecmaFeatures": {
+    "modules": false,
+    "classes": true,
+    "generators": true,
+    "objectLiteralShorthandMethods": true
+  },
+  "rules": {
+    "comma-dangle": [ 2, "never" ],
+    "no-use-before-define": [ 2, "nofunc" ],
+    "padded-blocks": 0,
+    "brace-style": [ 2, "stroustrup", { "allowSingleLine": false } ],
+    "no-multi-spaces": 0,
+    // there is an actual problem with eslint and node with strict, need to disable for now
+    "strict": [0, "global"],
+    "one-var": 0,
+    "prefer-const": 0,
+    "no-console": 0,
+    "func-names": 0,
+    "max-len": 0,
+    "no-param-reassign": 0,
+    // using this rule results in a HUGE amount of errors, we need to migrate
+    // it's disabled now, but please use string interpolation instead of
+    // concatenation from now on
+    "prefer-template": 0,
+    // node.js still does not accept rest-params by default, disabled until
+    // they fully support
+    "prefer-rest-params": 0,
+    "import/no-extraneous-dependencies": [ "error", { "devDependencies": true } ]
+  }
+}

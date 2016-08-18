@@ -1,0 +1,55 @@
+{
+  "vendorName": "Teradek",
+  "productName": "Teradek VidiU",
+  "productUrl": "https://www.bhphotovideo.com/c/product/963885-REG/teradek_vidiu_consumer_camera_top_hdmi_h_264.html",
+  "productSku": "10-0245",
+  "productAvailability": "More Details",
+  "productPrice": "699.00",
+  "productAddToCart": "More Details",
+  "productOverview": "The Teradek VidiU is a consumer-grade on-camera video streaming device capable of sending 1080p HD video from a camera to the Web in real-time. You can be recording a kid's baseball game in the park and simultaneously broadcasting it to family at home. VidiU features an HDMI camera input and encodes video in the popular H.264 codec.\nVidiU streams to content delivery networks and media servers and is set up for native integration with the Ustream and Livestream platforms -- you'll just need to log in to one of these, select a channel or event, and stream. VidiU streams by dual-band WiFi and features a 60-minute internal battery to fully support wireless streaming, and it can also stream by Ethernet or by an optional 3G/4G USB modem.\nVidiU attaches right on top of a camera by an included hot shoe adapter. An OLED display indicates connection status and other info and is operable by joystick-type navigation buttons. Audio support includes AAC encoding and a headphone output. In addition to streaming to a platform, you can also simultaneously stream to an iOS device so you can monitor your live broadcast.",
+  "productUPC": "859273002873",
+  "productSpecs": "Show more\nShow less\nSpecifications\nVideo Inputs HDMI\nSupported Resolutions 1080p 23.98/24/25/29.97/30\n1080i 50/59.94/60\n720p 50/59.94/60\n576p\n576i\n480p\n480i\nAspect ratios: 4:3 and 16:9\nVideo Codec Compression: Base/Main H.264\nBit rate: 250 Kbps to 5 Mbps\nStreaming Transport protocol: RTMP\nAPI level integration: Ustream and new Livestream\nAudio Audio compression: AAC-LC\nEmbedded audio input\nAnalog line or mic-in\nHeadphone output\nInterfaces OLED display with joystick navigation buttons\nOn/Off and reset switch\nPowered USB 2.0 host port\nNetwork Ethernet: 10/100BASE-T\nWiFi: Dual Band MIMO 802.11 a/b/g/n\nUSB 3G/4G modem support\nMaterial Plastic body\nPower DC power input: 6-12 V\nInternal rechargeable lithium-ion battery\nNominal power consumption: 3 W\nNominal power consumption while charging : up to 10 W\nDimensions 3 x 4 x 1\" (7.6 x 10.1 x 2.5 cm)\nWeight 5 oz (142 g)\nPackaging Info\nPackage Weight 1.4 lb\nBox Dimensions (LxWxH) 6.6 x 6.6 x 4.1\"\nTeradek VidiU Demo",
+  "boxWeight": "1.4 ",
+  "boxUnit": "lb",
+  "boxDimension": "6.6 x 6.6 x 4.1",
+  "inBox": "AC Power Supply\nHot Shoe Adapter with Thumbscrew\nEthernet Cable\nMale-to-Mini HDMI Cable\nQuick Start Guide\n1-Year Warranty",
+  "img_extra_list": [
+    {
+      "img": "https://static.bhphoto.com/images/images500x500/1366299402000_963885.jpg",
+      "img_alt": "Teradek VidiU"
+    }
+  ],
+  "imgVendor": "https://static.bhphoto.com/images/manufacturers/teradek_3060.gif",
+  "imgVendor_url": "https://www.bhphotovideo.com/c/buy/Shop-by-Brand-Teradek/ci/4/phd/4253041127/N/4294255798",
+  "currPriceLow": "$",
+  "priceLow": "649.00",
+  "productHighlightList": [
+    {
+      "productHighlight": "On-Camera Wireless Streaming Encoder"
+    },
+    {
+      "productHighlight": "Stream 1080p from a Camera to the Web"
+    },
+    {
+      "productHighlight": "Live Streaming by WiFi & Ethernet"
+    },
+    {
+      "productHighlight": "HDMI Input"
+    },
+    {
+      "productHighlight": "H.264 Encoding & AAC Audio Encoding"
+    },
+    {
+      "productHighlight": "Ustream & Livestream Native Integration"
+    },
+    {
+      "productHighlight": "RTMP Interface"
+    },
+    {
+      "productHighlight": "60 Minute Internal Battery"
+    },
+    {
+      "productHighlight": "Streams to iOS Devices for Monitoring"
+    }
+  ]
+}
