@@ -1,0 +1,25 @@
+#!/bin/sh
+
+# script/test - runs all tests
+
+# exit on sub-module failure
+set -e
+
+cd "$(dirname "$0")/.."
+
+# --------
+
+echo "Testing..."
+
+export RETHINK_HOST=${RETHINK_HOST:-"$(docker inspect --format '{{ .NetworkSettings.IPAddress }}' rethinkdb)"}
+export RETHINK_PORT=${RETHINK_PORT:-28015}
+
+if [ -z "$CIRCLE_SHA1" ]; then
+  node_modules/.bin/istanbul cover node_modules/mocha/bin/_mocha -- -R spec --recursive --no-timeouts server/test/
+else
+  node_modules/.bin/istanbul cover node_modules/mocha/bin/_mocha -- -R spec --recursive --no-timeouts server/test/
+fi
+
+echo "Done testing!"
+
+# --------

@@ -1,0 +1,20 @@
+#!/bin/sh
+
+# script/bootstrap - installs all required dependencies
+
+# exit on sub-module failure
+set -e
+
+cd "$(dirname "$0")/.."
+
+# --------
+
+echo "Bootstraping..."
+
+npm install
+npm prune
+npm dedupe rethinkdbdash
+
+echo "Done bootstraping!"
+
+# --------

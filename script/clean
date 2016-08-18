@@ -1,0 +1,19 @@
+#!/bin/sh
+
+# script/builds - builds the release
+
+# exit on sub-module failure
+set -e
+
+cd "$(dirname "$0")/.."
+
+# ------
+
+echo "Cleaning..."
+
+rm -rf dist
+rm -rf server/uploads
+
+echo "Done cleaning!"
+
+# ------

@@ -1,0 +1,26 @@
+#!/bin/sh
+
+# script/lint - Validates the source files against quality and style standards
+
+# exit on sub-module failure
+set -e
+
+cd "$(dirname "$0")/.."
+
+# ------
+
+echo "Linting..."
+
+node_modules/.bin/eslint --fix "./server/**/*.js"
+
+echo "Done linting!"
+
+# ------
+
+echo "Test linting (.only)..."
+
+if grep -r ".only(" server/test; then return 1; fi
+
+echo "Done test linting!"
+
+# ------
