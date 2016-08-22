@@ -19,6 +19,7 @@ function* webhook() {
 
     if (runData.products && _.isArray(runData.products)) {
       for (let item of runData.products) {
+        item.productPrice = item.productPrice.replace(/,/g, '');
         let product = yield getProduct(item.productSku);
         if (product) {
           yield updateProduct(product, item);
