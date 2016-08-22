@@ -7,5 +7,6 @@ const
 module.exports = {
   thinky,
   r: thinky.r,
-  Product: require('./product')
+  Product: require('./product'),
+  Run: require('./run')
 };

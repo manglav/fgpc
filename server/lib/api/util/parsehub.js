@@ -22,7 +22,8 @@ function* getRunData(runToken) {
 
   // In case of error
   if (res.statusCode !== 200) {
-    console.log(`ALERT :: Failed to subscribe to onesignal: AppId: ${config.onesignal.app_id} - Token: ${deviceToken} - Source: ${source}`);
+    console.log('ALERT :: Failed to retrieve parsehub:');
+    console.log(console.log(res.body));
 
     return {};
   }
