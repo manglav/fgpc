@@ -14,7 +14,7 @@ const Product = thinky.createModel('Product', {
   productUrl: type.string().required(),
   productSku: type.string().required(),
   productAvailability: type.string(),
-  productPrice: type.number(),
+  productPrice: type.string(),
   productAddToCart: type.string(),
   productOverview: type.string(),
   productUPC: type.string(),
@@ -23,7 +23,6 @@ const Product = thinky.createModel('Product', {
   boxUnit: type.string(),
   boxDimension: type.string(),
   inBox: type.string(),
-
   created_at: type.date().default(helper.now)
 });
 
